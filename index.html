@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuantumGuard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>QuantumGuard</h1>
+        <p>Advanced Password Security Analyzer</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#analyzer">Analyzer</a>
+        <a href="#tips">Tips</a>
+    </nav>
+
+    <section id="home" class="hero">
+        <h2>Protect Your Digital Identity</h2>
+        <p>
+            Millions of accounts are compromised every year due to weak passwords.
+            QuantumGuard helps users create stronger and safer passwords.
+        </p>
+    </section>
+
+    <section id="about" class="cards">
+
+        <div class="card">
+            <h3>Security</h3>
+            <p>Strong passwords reduce the risk of cyber attacks.</p>
+        </div>
+
+        <div class="card">
+            <h3>Protection</h3>
+            <p>Protect personal and professional information.</p>
+        </div>
+
+        <div class="card">
+            <h3>Awareness</h3>
+            <p>Learn good cybersecurity practices.</p>
+        </div>
+
+    </section>
+
+    <section id="analyzer" class="analyzer">
+
+        <h2>Password Analyzer</h2>
+
+        <input
+            type="password"
+            id="password"
+            placeholder="Enter your password">
+
+        <button onclick="evaluatePassword()">
+            Analyze Password
+        </button>
+
+        <div id="result"></div>
+
+    </section>
+
+    <section id="tips">
+
+        <h2>Security Tips</h2>
+
+        <ul>
+            <li>Use at least 8 characters.</li>
+            <li>Include uppercase letters.</li>
+            <li>Add numbers.</li>
+            <li>Use special characters.</li>
+            <li>Avoid personal information.</li>
+        </ul>
+
+    </section>
+
+    <footer>
+        <p>© 2026 QuantumGuard | Final Web Development Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
